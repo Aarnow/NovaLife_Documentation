@@ -1,7 +1,7 @@
 site_name: Documentation Nova-Life
-site_url: https://sitename.example
-repo_name: Aarnow/NovaLife_Mapper
-repo_url: https://github.com/Aarnow/NovaLife_Mapper
+site_url: https://aarnow.github.io/NovaLife_Documentation/
+repo_name: Aarnow/NovaLife_Documentation
+repo_url: https://github.com/Aarnow/NovaLife_Documentation
 theme:
   language: fr
   name: material
@@ -68,6 +68,8 @@ extra:
       link: https://discord.gg/8j2suEE9Mf
   tags:
     UIPanel: ui-panel
+  version:
+    provider: mike
 
 plugins:
   - tags
