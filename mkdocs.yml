@@ -5,7 +5,6 @@ repo_url: https://github.com/Aarnow/NovaLife_Documentation
 theme:
   language: fr
   name: material
-  custom_dir: overrides
   logo: assets/logo-mod-white.png
   favicon: assets/favicon-mod-white-128x128.ico
   features:
@@ -50,6 +49,7 @@ nav:
   - Getting Started:
     - Introduction: getting-started/introduction.md
     - Prérequis: getting-started/prerequis.md
+    - Création du projet: getting-started/start.md
   - Plugins:
     - plugins/introduction.md
     - Admin: 
@@ -94,11 +94,6 @@ extra:
   version:
     provider: mike
 
-extra_css:
-  - stylesheets/nav.css
-extra_javascript:
-  - javascripts/extra.js
-
 plugins:
   - tags
   - search
@@ -114,10 +109,5 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
-  - git-committers:
-      enabled: !ENV [CI, false]
-      repository: Aarnow/NovaLife_Documentation
-      token: ${GIT_COMMITTERS_TOKEN}
-      branch: main
 
 copyright: "Tous droits réservés &copy; 2025 Association MOD"
