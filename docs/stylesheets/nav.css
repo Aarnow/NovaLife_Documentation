@@ -1,0 +1,5 @@
+/* Styles pour les catégories de la navigation */
+.md-nav__item--section>.md-nav__link[for] {
+    font-size: 0.85rem;
+    color: white !important;
+}

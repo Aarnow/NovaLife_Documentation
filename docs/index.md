@@ -1,3 +1,9 @@
-# Introduction
+---
+hide:
+  - navigation
+---
 
-Documentation en cours de création.
+
+# Bienvenue sur la documentation
+
+Site en cours de création...

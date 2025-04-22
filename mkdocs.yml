@@ -13,13 +13,19 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
+    - navigation.path
+    - navigation.sections
   font:
     text: Roboto
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
     tag:
-      ui-panel: fontawesome/solid/screwdriver-wrench
+      beginner: fontawesome/solid/seedling
+      plugin: fontawesome/solid/puzzle-piece
+      metier: material/tools
+      interaction: material/flash
+      admin: fontawesome/solid/star
   palette:
     # Dark Mode
     - scheme: slate
@@ -40,7 +46,18 @@ theme:
 nav:
   - Accueil: index.md
   - Getting Started:
-    - Installation: getting-started/installation.md
+    - Introduction: getting-started/introduction.md
+    - Prérequis: getting-started/prerequis.md
+  - Plugins:
+    - plugins/introduction.md
+    - Admin: 
+      - plugins/admin/mapper.md
+      - plugins/admin/si-tig.md
+    - Métiers:
+      - plugins/métiers/jobbus.md
+      - plugins/métiers/nfourriere.md
+    - Interactions:
+      - plugins/interactions/bizbill.md
 
 
 markdown_extensions:
@@ -56,23 +73,40 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
-  
-
+ 
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/8j2suEE9Mf
   tags:
-    UIPanel: ui-panel
+    Débutant: beginner
+    Plugin: plugin
+    Métier: metier
+    Interaction: interaction
+    Admin: admin
   version:
     provider: mike
+
+extra_css:
+  - stylesheets/nav.css
 
 plugins:
   - tags
   - search
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 copyright: "Tous droits réservés &copy; 2025 Association MOD"
