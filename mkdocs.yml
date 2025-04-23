@@ -5,6 +5,7 @@ repo_url: https://github.com/Aarnow/NovaLife_Documentation
 theme:
   language: fr
   name: material
+  custom_dir: overrides
   logo: assets/logo-mod-white.png
   favicon: assets/favicon-mod-white-128x128.ico
   features:
@@ -91,6 +92,9 @@ extra:
     Métier: metier
     Interaction: interaction
     Admin: admin
+
+extra_css:
+  - assets/stylesheets/custom.css
 
 plugins:
   - tags
