@@ -10,7 +10,6 @@ theme:
   favicon: assets/favicon-mod-white-128x128.ico
   features:
     - content.code.copy
-    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
@@ -29,40 +28,12 @@ theme:
       interaction: material/flash
       admin: fontawesome/solid/star
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Mode sombre
-      primary: indigo
+      primary: black
       accent: indigo
-
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Mode clair
-      primary: indigo
-      accent: indigo
-
-nav:
-  - Accueil: index.md
-  - Getting Started:
-    - Introduction: getting-started/introduction.md
-    - Prérequis: getting-started/prerequis.md
-    - Création du projet: getting-started/start.md
-  - Plugins:
-    - plugins/introduction.md
-    - Admin: 
-      - plugins/admin/mapper.md
-      - plugins/admin/si-tig.md
-    - Métiers:
-      - plugins/métiers/jobbus.md
-      - plugins/métiers/nfourriere.md
-    - Interactions:
-      - plugins/interactions/bizbill.md
 
 markdown_extensions:
+  - markdown_include.include:
+      base_path: .
   - attr_list
   - md_in_html
   - pymdownx.emoji:
@@ -101,3 +72,27 @@ plugins:
   - search
 
 copyright: "Tous droits réservés &copy; 2025 Association MOD"
+
+
+nav:
+  - Accueil: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Prérequis: getting-started/prerequis.md
+    - Création du projet: getting-started/start.md
+  - Ressources:
+    - Panels: ressources/panels.md
+    - Événements: ressources/events.md
+    - Données: ressources/data.md
+    - Points: ressources/points.md
+    - Vêtements: ressources/skins.md
+    - Textes: ressources/text.md
+    - Terrains: ressources/areas.md
+    - Inventaires: ressources/inventory.md
+    - Objets: ressources/items.md
+    - Véhicules: ressources/vehicles.md
+    - Entreprises: ressources/bizs.md
+    - Personnages: ressources/characters.md
+  - Plugins:
+    - plugins/introduction.md
+    - plugins/administratif.md

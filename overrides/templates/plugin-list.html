@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% block plugin_cards %}
+    {% if page.meta.plugins %}
+        {% for plugin in page.meta.plugins %}
+            <a href="{{ plugin.url }}" class="plugin-card" target="_blank">
+                <img src="{{ plugin.thumbnail }}" alt="Titre de l'image">
+                <div class="plugin-card__content-wrapper">
+                    <h3><b>{{ plugin.title }}</b></h4>
+                    <p>{{ plugin.description }}</p>
+                </div>
+            </a>
+        {% endfor %}
+    {% endif %}
+  {% endblock %}
+{% endblock %}
