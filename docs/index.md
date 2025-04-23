@@ -15,7 +15,7 @@ contributors:
 ---
 
 
-# Bienvenue sur la documentation.
+# Bienvenue sur la documentation !
 
 !!! info "Nous recherchons des contributeurs !"
 
