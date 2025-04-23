@@ -1,0 +1,37 @@
+.plugin-card h3, .plugin-card p {
+    margin: 0;
+    color: #000000de;
+}
+
+.plugin-card p {
+font-size: .64rem;
+}
+
+.plugin-card {
+    display: flex;
+    overflow: hidden;
+    height: 180px;
+}
+
+.plugin-card img {
+    height: 100%;
+}
+
+.plugin-card__content-wrapper {
+    padding: 1rem;
+}
+
+@media (max-width: 959px) {
+    .plugin-card {
+        display: block;
+        height: auto;
+    }
+
+    .plugin-card img {
+        height: auto;
+    }
+
+    .plugin-card__content-wrapper {
+        padding: 0;
+    }
+}

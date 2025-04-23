@@ -4,14 +4,6 @@ hide:
 contributors:
   - username: aarnow
     avatar: https://avatars.githubusercontent.com/u/150937845?v=4
-  - username: emilenkz
-    avatar: https://avatars.githubusercontent.com/u/168008359?v=4
-  - username: noahfournier
-    avatar: https://avatars.githubusercontent.com/u/158089914?v=4
-  - username: IceCubeFr
-    avatar: https://avatars.githubusercontent.com/u/105366557?v=4
-  - username: loicsmith
-    avatar: https://avatars.githubusercontent.com/u/49919696?v=4
 ---
 
 

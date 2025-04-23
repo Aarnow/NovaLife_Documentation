@@ -57,12 +57,3 @@
     height: 25px;
     width: 25px;
 }
-
-/* gestion du mode sombre/clair */
-.github-ico path {
-    fill: #000;
-}
-
-body[data-md-color-scheme="slate"] .github-ico path {
-    fill: #fff;
-}
