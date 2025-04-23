@@ -21,6 +21,9 @@ contributors:
 ---
 
 
-# Bienvenue sur la documentation !
+# Bienvenue sur la documentation.
 
-Site en cours de création...
+!!! info "Nous recherchons des contributeurs !"
+
+    Ce site est actuellement en cours de rédaction.  
+    Nous recherchons activement des futurs contributeurs pour compléter cette documentation ainsi que la maintenir dans le temps.
