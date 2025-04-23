@@ -32,8 +32,6 @@ theme:
       accent: indigo
 
 markdown_extensions:
-  - markdown_include.include:
-      base_path: .
   - attr_list
   - md_in_html
   - pymdownx.emoji:
