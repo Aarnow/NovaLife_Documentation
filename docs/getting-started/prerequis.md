@@ -8,4 +8,4 @@ tags:
     Télécharger Visual Studio + les composants "Développement .Net Desktop" et "Développement de jeux avec Unity"  
     *(Il est possible d'utiliser d'autres IDE mais nous n'allons pas les aborder)*  
     Évidemment, il faut télécharger Nova-Life depuis Steam.  
-    *(facultatif)* Télécharger Git et posséder un compte GitHub pour versionner vosw plugins.
+    *(facultatif)* Télécharger Git et posséder un compte GitHub pour versionner vos plugins.
